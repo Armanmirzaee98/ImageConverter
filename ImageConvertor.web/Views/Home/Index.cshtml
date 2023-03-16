@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center alert alert-info">
+    <h1 class="display-4 text-primary">Welcome To Image Convertor...</h1>
+</div>
+<div class="col-12 col-md-5" style="margin:50px auto;padding:5px;">
+    <form asp-action="Convertor" asp-controller="Home" method="post" enctype="multipart/form-data" style="padding:10px;">
+        <div class="alert alert-danger text-danger" asp-validation-summary="ModelOnly"></div>
+        <label for="Image" class="form-label">Please Select Your Image...</label>
+        <input type="file" class="form-control" name="image" required />
+        <br />
+        <label for="Type" class="form-label">Select Your Format Target...</label>
+        <select name="format" class="form-control">
+            <option value=".jpg">JPG</option>
+            <option value=".webp">WEBP</option>
+            <option value=".png">PNG</option>
+        </select>
+        <br />
+        <input type="submit" class="btn btn-dark" value="Convert ==>" style="width:100%;"/>
+    </form>
+    <br />
+    <p style="color:green"><b>@TempData["BlogSuccess"]</b></p>
+</div>

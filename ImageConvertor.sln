@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageConvertor.web", "ImageConvertor.web\ImageConvertor.web.csproj", "{3579AD0F-EE78-4561-8E11-1A6BBBFCDA3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3579AD0F-EE78-4561-8E11-1A6BBBFCDA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3579AD0F-EE78-4561-8E11-1A6BBBFCDA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3579AD0F-EE78-4561-8E11-1A6BBBFCDA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3579AD0F-EE78-4561-8E11-1A6BBBFCDA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9368D246-C0C6-4825-8B25-289825548879}
+	EndGlobalSection
+EndGlobal
